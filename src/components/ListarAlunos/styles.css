@@ -1,0 +1,113 @@
+.listar-alunos-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+.listar-alunos-container header {
+    display: flex;
+    align-items: center;
+}
+
+.listar-alunos-container header span {
+    font-size: 20px;
+    margin-right: auto;
+    color: #41414d;
+}
+
+.listar-alunos-container header a {
+    width: 260px;
+    margin-left: auto;
+    margin-right: 16px;
+}
+
+.listar-alunos-container header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+}
+
+.listar-alunos-container header button:hover {
+    border-color: #999;
+}
+
+.listar-alunos-container form {
+    margin-top: 40px;
+}
+
+.listar-alunos-container form input {
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    padding: 0 24px;
+    font-size: 18px;
+}
+
+.listar-alunos-container form input:focus {
+    border-color: #e02041;
+}
+
+.listar-alunos-container h1 {
+    margin-top: 40px;
+    margin-bottom: 24px;
+    color: #41414d;
+}
+
+.listar-alunos-container ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.listar-alunos-container ul li {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.listar-alunos-container ul li button {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+    background: transparent;
+    margin-left: 8px;
+}
+
+.listar-alunos-container ul li a {
+    position: absolute;
+    right: 56px;
+    top: 24px;
+    border: 0;
+    background: transparent;
+}
+
+.listar-alunos-container ul li button:hover,
+.listar-alunos-container ul li a:hover {
+    opacity: 0.8;
+}
+
+.listar-alunos-container ul li strong {
+    display: block;
+    margin-bottom: 16px;
+    color: #41414d;
+}
+
+.listar-alunos-container ul li p + strong {
+    margin-top: 32px;
+}
+
+.listar-alunos-container ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+}
